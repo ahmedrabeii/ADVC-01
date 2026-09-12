@@ -1,5 +1,5 @@
 ﻿using ADV_C_01.@interface;
-using static ADV_C_01.ExStruct;
+using static ADV_C_01.Example.ExStruct;
 
 namespace ADV_C_01
 {

@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace ADV_C_01
+namespace ADV_C_01.Example
 {
-    internal class ExClass
+    internal class ExStruct
     {
-        public class Example<T> where T : class
+        public class Example<T> where T : struct
         {
             public T Value;
 
