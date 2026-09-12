@@ -114,6 +114,11 @@ namespace ADV_C_01
             //Console.WriteLine(list.Get(1));
             //Console.WriteLine(list.Get(5));
             #endregion
+
+            #region Q15
+            //Covariance: allows a derived type to be used where a base type is expected.
+            //The out keyword is used for covariance and is mainly used for output value
+            #endregion
         }
     }
 }
