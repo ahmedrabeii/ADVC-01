@@ -100,6 +100,10 @@ namespace ADV_C_01
             //ExMultiple.Example<Dog> e =new ExMultiple.Example<Dog>();
             //e.Show(new Dog());
             #endregion
+
+            #region Q13
+            //The default keyword returns the default value of a type.
+            #endregion
         }
     }
 }
