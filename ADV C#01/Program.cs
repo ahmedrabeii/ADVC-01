@@ -104,6 +104,16 @@ namespace ADV_C_01
             #region Q13
             //The default keyword returns the default value of a type.
             #endregion
+
+            #region Q14
+            //SafeList<int> list = new SafeList<int>();
+
+            //list.Add(10);
+            //list.Add(20);
+
+            //Console.WriteLine(list.Get(1));
+            //Console.WriteLine(list.Get(5));
+            #endregion
         }
     }
 }
