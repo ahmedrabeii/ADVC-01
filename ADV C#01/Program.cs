@@ -1,4 +1,6 @@
-﻿namespace ADV_C_01
+﻿using ADV_C_01.@interface;
+
+namespace ADV_C_01
 {
     internal class Program
     {
@@ -36,6 +38,25 @@
             //int max = Max.FindMax(5, 10, 3);
             //Console.WriteLine($"The maximum value is: {max}");
             #endregion
+
+            #region Q6
+            //Interfaces can also be generic. Any class that implements them must specify the type arguments.
+
+            //IRepository<Student> repository = new StudentRepository();
+
+            //Student s1 = new Student(1, "Ahmed");
+            //Student s2 = new Student(2, "Omar");
+
+            //repository.Add(s1);
+            //repository.Add(s2);
+
+            //Console.WriteLine(repository.Get(0));
+
+            //repository.Remove(s1);
+
+            //Console.WriteLine(repository.Get(0));
+            #endregion
         }
     }
 }
+
