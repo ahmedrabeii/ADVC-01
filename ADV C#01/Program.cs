@@ -23,6 +23,13 @@
             //p1.Key = "ahmed";
             //p1.print();
             #endregion
+
+            #region Q4
+            //int a = 5;
+            //int b = 10;
+            //Helpers.Swap(ref a, ref b);
+            //Console.WriteLine($"a: {a}, b: {b}");
+            #endregion
         }
     }
 }
