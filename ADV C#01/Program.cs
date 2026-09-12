@@ -1,5 +1,5 @@
-﻿using ADV_C_01.Example;
-using ADV_C_01.@interface;
+﻿using ADV_C_01.@interface;
+using System.Diagnostics.Metrics;
 using static ADV_C_01.Example.ExStruct;
 
 namespace ADV_C_01
@@ -126,19 +126,31 @@ namespace ADV_C_01
             #endregion
 
             #region Q17
-           //Covariance:
-           //          Uses out
-           //          Used for output
-           //          Derived type → Base type
+            //Covariance:
+            //          Uses out
+            //          Used for output
+            //          Derived type → Base type
 
-           //Contravariance:
-           //          Uses in
-           //          Used for input
-           //          Base type → Derived type
-
-
+            //Contravariance:
+            //          Uses in
+            //          Used for input
+            //          Base type → Derived type
 
 
+
+
+            #endregion
+
+            #region Q18
+            //Static members in generic types are separate for each different type argument.
+
+            //Counter<int>.Count++;
+            //Counter<int>.Count++;
+
+            //Counter<string>.Count++;
+
+            //Console.WriteLine(Counter<int>.Count);
+            //Console.WriteLine(Counter<string>.Count);
             #endregion
         }
     }
