@@ -16,6 +16,13 @@
             //int value = s1.Get();
             //Console.WriteLine(value);
             #endregion
+
+            #region Q3
+            //Pair<int, string> p1 = new Pair<int, string>();
+            //p1.Value = 10;
+            //p1.Key = "ahmed";
+            //p1.print();
+            #endregion
         }
     }
 }
