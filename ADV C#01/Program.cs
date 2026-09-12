@@ -93,6 +93,13 @@ namespace ADV_C_01
             //ExBase.Example<Animal> e = new ExBase.Example<Animal>();
             //e.Show(new Animal());
             #endregion
+
+            #region Q12 
+            //Multiple constraints can be applied using the where clause.
+
+            //ExMultiple.Example<Dog> e =new ExMultiple.Example<Dog>();
+            //e.Show(new Dog());
+            #endregion
         }
     }
 }
