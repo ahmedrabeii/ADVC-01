@@ -163,6 +163,20 @@ namespace ADV_C_01
             //Console.WriteLine(box.Value);
             #endregion
 
+            #region Q20
+            //Cache<string, string> cache = new Cache<string, string>();
+
+            //cache.Add("name", "Ali", 10);
+
+            //Console.WriteLine(cache.Get("name"));
+
+            //Console.WriteLine(cache.Contains("name"));
+
+            //cache.Remove("name");
+
+            //Console.WriteLine(cache.Contains("name"));
+            #endregion
+
         }
     }
 }
