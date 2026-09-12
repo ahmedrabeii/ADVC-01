@@ -152,6 +152,17 @@ namespace ADV_C_01
             //Console.WriteLine(Counter<int>.Count);
             //Console.WriteLine(Counter<string>.Count);
             #endregion
+
+            #region Q19
+            //A class can inherit from a generic class by specifying the type argument.
+
+            //IntBox box = new IntBox();
+
+            //box.Value = 10;
+
+            //Console.WriteLine(box.Value);
+            #endregion
+
         }
     }
 }
