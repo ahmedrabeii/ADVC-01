@@ -124,6 +124,22 @@ namespace ADV_C_01
             //Contravariance: allows a base type to be used where a derived type is expected.
             //The in keyword is used for contravariance and is mainly used for input values
             #endregion
+
+            #region Q17
+           //Covariance:
+           //          Uses out
+           //          Used for output
+           //          Derived type → Base type
+
+           //Contravariance:
+           //          Uses in
+           //          Used for input
+           //          Base type → Derived type
+
+
+
+
+            #endregion
         }
     }
 }
