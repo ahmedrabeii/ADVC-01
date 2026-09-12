@@ -73,6 +73,18 @@ namespace ADV_C_01
             //ExClass.Example<string> e1 = new ExClass.Example<string>("Hello");
             //Console.WriteLine(e1.Value);
             #endregion
+
+            #region Q9
+            //The new() constraint specifies that the type must have a public parameterless constructor.
+            //It allows the generic code to create an object using new T().
+
+            //ExNew.Example<ExNew.Person> e1 =
+            //    new ExNew.Example<ExNew.Person>();
+
+            //ExNew.Person p = e1.CreateObject();
+
+            //Console.WriteLine("Object Created");
+            #endregion
         }
     }
 }
