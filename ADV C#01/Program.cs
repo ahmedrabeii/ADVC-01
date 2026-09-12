@@ -1,4 +1,5 @@
 ﻿using ADV_C_01.@interface;
+using static ADV_C_01.ExStruct;
 
 namespace ADV_C_01
 {
@@ -64,7 +65,15 @@ namespace ADV_C_01
             //ExStruct.Example<int> e1 = new ExStruct.Example<int>(10);
             //Console.WriteLine(e1.Value);
             #endregion
-    }
+
+            #region Q8
+            //The class constraint specifies that the type argument must be a reference type,
+            //such as a class, interface, delegate, or array.
+
+            //ExClass.Example<string> e1 = new ExClass.Example<string>("Hello");
+            //Console.WriteLine(e1.Value);
+            #endregion
+        }
     }
 }
 
