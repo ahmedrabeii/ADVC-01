@@ -30,6 +30,12 @@
             //Helpers.Swap(ref a, ref b);
             //Console.WriteLine($"a: {a}, b: {b}");
             #endregion
+
+            #region Q5
+            //Max maxFinder = new Max();
+            //int max = Max.FindMax(5, 10, 3);
+            //Console.WriteLine($"The maximum value is: {max}");
+            #endregion
         }
     }
 }
