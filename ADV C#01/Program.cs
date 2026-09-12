@@ -56,7 +56,15 @@ namespace ADV_C_01
 
             //Console.WriteLine(repository.Get(0));
             #endregion
-        }
+
+            #region Q7
+            //The struct constraint specifies that the type argument must be a value type.
+            //It can be used with built-in value types such as int, double, and bool, or user-defined structs.
+
+            //ExStruct.Example<int> e1 = new ExStruct.Example<int>(10);
+            //Console.WriteLine(e1.Value);
+            #endregion
+    }
     }
 }
 
