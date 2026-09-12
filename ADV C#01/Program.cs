@@ -1,4 +1,5 @@
-﻿using ADV_C_01.@interface;
+﻿using ADV_C_01.Example;
+using ADV_C_01.@interface;
 using static ADV_C_01.Example.ExStruct;
 
 namespace ADV_C_01
@@ -84,6 +85,13 @@ namespace ADV_C_01
             //ExNew.Person p = e1.CreateObject();
 
             //Console.WriteLine("Object Created");
+            #endregion
+
+            #region Q11
+            //The base class constraint specifies that the type argument must inherit from a specific base class.
+
+            //ExBase.Example<Animal> e = new ExBase.Example<Animal>();
+            //e.Show(new Animal());
             #endregion
         }
     }
