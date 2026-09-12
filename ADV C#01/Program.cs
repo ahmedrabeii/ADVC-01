@@ -9,6 +9,13 @@
             //The actual is specified when the is used,not when it is written.
             //Use:Type Safety, Code Reusability, Better Performance, Cleaner Code
             #endregion
+
+            #region Q2
+            //Container<int> s1 = new Container<int>();
+            //s1.Add(10);
+            //int value = s1.Get();
+            //Console.WriteLine(value);
+            #endregion
         }
     }
 }
